@@ -74,7 +74,7 @@ class YoutubeVideoID{
 }
 
 class SpotifyTrackFactory{
-  static var client = clientViaApiKey('AIzaSyD0DE9PZHpthQR-A4QxPMYdEUj97lL2wjA');
+  static var client = clientViaApiKey('');
   static Future<List<SpotifyTrack>> generateTracks() async {
     var response = await http.get("https://spotifycharts.com/regional/");
 
